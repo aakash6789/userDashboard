@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+      },
+      fontWeight: {
+        // Define custom font weights if needed
+        style1: 400,
+        style2: 500,
+        style3: 600,
+      },
+    },
   },
   plugins: [],
 }
